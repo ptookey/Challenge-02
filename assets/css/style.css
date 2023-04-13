@@ -1,0 +1,72 @@
+/*This is universal and applies to all*/
+:root{
+    --darkblue: #0b1e33;
+    --blue: #013c58;
+    --lightblue: #00537a;
+    --gold: #f5a201;
+    --orange: #ffba42;
+    --yellow: #ffd35b;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*This applies to the body*/
+
+body {
+    background-color: var(--lightblue);
+}
+
+/*This section is for the header*/
+
+header {
+    display: flexbox;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 377px;
+    width: 100%;
+    background-image: url("../images/Hero2.jpg");
+    background-size: cover;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 64px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*This is for the hyperlinks*/
+
+a {
+    color:  var(--gold);
+    text-decoration: none;
+}
+
+.statement {
+    background-color: var(--darkblue);
+    color: var(--yellow);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: block;
+    text-align: right;
+    padding: 100px;
+}
