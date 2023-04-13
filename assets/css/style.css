@@ -56,7 +56,7 @@ header nav ul li {
 
 /*This is for the hyperlinks*/
 
-a {
+header a {
     color:  var(--gold);
     text-decoration: none;
 }
@@ -108,17 +108,19 @@ main div {
 }
 
 #workmain {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
 .sub {
-    display:flex;
+    position: relative;
+    display: flex;
     width:47.5%;
     height: 250px;
 }
 
 #feature {
+    position: relative;
     width:100%;
     min-height: 500px;
     justify-content: center;
@@ -151,4 +153,36 @@ img {
     display: block;
     justify-content: center;
     border: 10px solid var(--gold);
+}
+
+figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: auto;
+    padding: 1%;
+    background-color: var(--gold);
+    color: var(--darkblue);
+    text-align: left;
+}
+
+img:hover {
+
+}
+
+#comingsoon {
+    font-size: 64px;
+}
+
+
+
+.contact ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 10%;
+    padding: 7px;
+    line-height: 100%;
+    background-color: var(--gold);
+    color: var(--darkblue);
 }
