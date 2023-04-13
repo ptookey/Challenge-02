@@ -63,10 +63,40 @@ a {
 
 .statement {
     background-color: var(--darkblue);
-    color: var(--yellow);
+    color: var(--orange);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     display: block;
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+aside {
+    flex: 20%;
+    background-color: var(--blue);
+    padding: 0px;
+  }
+
+aside h2 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: right;
-    padding: 100px;
+    font-size: 36px;
+    padding: 10%;
+    color: var(--orange);
+    height: 100%;
+}
+
+main {
+    flex: 80%;
+    padding: 5%;
+    color: var(--orange);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+
 }
