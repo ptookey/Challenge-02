@@ -14,4 +14,4 @@ This can be used to reference back to basic construction of web pages. It can al
 
 ## Screenshot
 
-![Challenge-03](Challenge-03.png)
+![Challenge-02](Challenge-02.png)
