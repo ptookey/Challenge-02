@@ -102,18 +102,44 @@ section main {
 
 .aboutme {
     height:auto;
+    display:flex;
 }
 
 .aboutme h2 {
     height:100%;
 }
 
+#Introduction {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+}
+
+#Introduction figure {
+    flex: 30%;
+    display: inline-flex;
+}
+
+#Introduction img {
+    width: 100%;
+    object-fit: cover;
+    border: 10px solid var(--gold);
+}
+
+#Introduction div {
+    flex: 70%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .aboutme p {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 1.5vw;
     line-height: 150%;
-    padding: 5%
+    padding-left: 5%;
 }
 
 /*This is for the work section*/
